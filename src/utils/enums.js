@@ -1,0 +1,12 @@
+export const EstadoDevolucion = {
+  BUEN_ESTADO: 'BUEN_ESTADO',
+  DANIO_LEVE: 'DANIO_LEVE', 
+  DANIO_GRAVE: 'DANIO_GRAVE',
+  PERDIDA: 'PERDIDA'
+};
+
+export const EstadoLibro = {
+  DISPONIBLE: 'DISPONIBLE',
+  PRESTADO: 'PRESTADO',
+  MANTENIMIENTO: 'MANTENIMIENTO'
+};
