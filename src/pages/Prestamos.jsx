@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { prestamoService } from '../services/prestamoService';
 import PrestamoForm from '../components/PrestamoForm';
-import DevolucionForm from '../components/DevolucionForm';
+import DevolucionForm from '../components/devolucionForm';
 
 const Prestamos = () => {
   const [prestamos, setPrestamos] = useState([]);
